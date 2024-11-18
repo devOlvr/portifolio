@@ -263,7 +263,7 @@ span {
 @keyframes words {
   0%,
   33% {
-    content: "Desenvolvedor Front-End";
+    content: "Desenvolvedor Web";
   }
   34%,
   66% {
@@ -440,14 +440,15 @@ span {
 
 .about p {
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 2;
   margin: auto;
+  max-width: 1200px;
 }
 
-.about .about-container strong {
+.about .about-container b {
   color: var(--main-color);
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .footer {
@@ -603,22 +604,20 @@ span {
     margin: 5rem 4rem;
   }
 
-  .home-content h2 {
-    font-size: 2.6rem;
+  .home-content h3 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
   }
 
   .home-content h1 {
-    font-size: 8rem;
+    font-size: 5rem;
     margin-top: 3rem;
   }
 
   .home-content p {
     max-width: 600px;
-    margin: 0 auto;
-  }
-
-  .home-img {
-    width: 56vw;
+    margin: 2rem auto;
+    font-size: 1.5rem;
   }
 
   .about-container {
